@@ -1,1 +1,3 @@
-Experimental tests, which were detailed in Silva et al. 2017, had been conducted to study characterize the bending behaviour of the circular CFST columns unde montonic/cyclic loading. Based on the test results, two numerical models, namely a 3D Finite Element (FE) model and a Distributed Plasticity (DP) model had been proposed to simulate the bending behaviour of circular CFST members. 
+\section{Multi-axial Stress States of Circular CFST member}
+Experimental tests, which were detailed in Silva et al. 2017, had been conducted to study characterize the bending behaviour of the circular CFST columns unde montonic/cyclic loading. Based on the test results, two numerical models, namely a 3D Finite Element (FE) model and a Distributed Plasticity (DP) model had been proposed to simulate the bending behaviour of circular CFST members.
+
