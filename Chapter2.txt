@@ -1,4 +1,0 @@
-\section{Multi-axial Stress States of Circular CFST member}
-
-Experimental tests, which were detailed in \cite{Silva2016}, had been conducted to study characterize the bending behaviour of the circular CFST columns under flexural loading. Based on the test results, two numerical models, namely a 3D Finite Element (FE) model and a Distributed Plasticity (DP) model had been proposed to simulate the bending behaviour of circular CFST members. The details of the two numerical models, including the member geometry, the steel-concrete interaction and the material properties, could be found in \cite{Jiang2018}. The accuracy of the two models had been validated against the test results and the corrsponding lateral load versus drift ratio plots of the eight specimens are showing in Figure ??.
-

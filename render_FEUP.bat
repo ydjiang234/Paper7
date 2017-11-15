@@ -1,3 +1,4 @@
+@echo off
 set FileName="Paper7"
 set bib_path="D:\Google Drive\BibTeX"
 pdflatex %FileName%.tex
