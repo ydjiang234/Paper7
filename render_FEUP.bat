@@ -1,6 +1,6 @@
 @echo off
 set FileName="Paper7"
-set bib_path="D:\Google Drive\BibTeX"
+set bib_path=$GIT$\BibTex
 pdflatex %FileName%.tex
 bibtex %FileName% -include-directory=%bib_path%
 pdflatex %FileName%.tex
