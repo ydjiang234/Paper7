@@ -1,6 +1,23 @@
 \section{Multi-axial Stress States of Circular CFST member}
 
-Experimental tests, which were detailed in \cite{Silva2016}, had been conducted to study characterize the bending behaviour of the circular CFST columns under flexural loading. Based on the test results, two numerical models, namely a 3D Finite Element (FE) model and a Distributed Plasticity (DP) model had been proposed to simulate the bending behaviour of circular CFST members. The details of the two numerical models, including the member geometry, the steel-concrete interaction and the material properties, could be found in \cite{Jiang2018}. The accuracy of the two models had been validated against the test results and the corrsponding lateral load versus drift ratio plots of the eight specimens are showing in Figure \ref{fig:test_vs_FE}. The 3D FE model can predict accurate bending behaviour of CFST member, since the local buckling, material interaction and the material strength under multi-axial stress, could be captured by the model. Regarding DP model, it was found that the model was always giving lower capacity prediction compared to the test resutls. The 
+
+\subsection{Multi-axial Stress States}
+When the CFST members were under loading, composite effects were introduced due to the interaction between concrete core and steel tube. Thus, both the concrete and steel are under multi-axial stress state.
+
+Regarding the concrete, the steel tube will provide confined stress to it and make the material under tri-axial stress state, which is called concrete confinement effect. The strength and the ductility of the concrete is improved by the confinement effect. There were many researchers had studied the concrete confinement effect for CFST members ().
+
+Not only concrete core, but also the steel tube is under multi-axial stress state. The steel tube will provide the confined stress to the concrete core and introduce the confinement effect. In turn, the concrete will expand under axial stress and cause the circumferential stress (or called hoop stress) around the steel tube. As the thickness of the steel tube is relatively small compared to the section diameter, the steel tube could be considered as a 2D shell and the material is under bi-axial stress state. Figure ?? shows the stress state of the steel tube of circular CFST member. Since the member is under bending force, part of the steel tube is under compression and part of it is under tension. The influences of bi-axial stress state on the steel material properties in the compressive and tensile areas are different.
+
+\begin{figure}
+\centering
+\includegraphics[\linewidth]{Figures/Hoop_Stress.pdf}
+\caption{Steel bi-axial stress state under bending force}
+\label{fig:steel_biaxial_stress}
+\end{figure}
+
+\subsection{Experiment Tests and Numerical models}
+
+Experimental tests, which were detailed in \cite{Silva2016}, had been conducted to study characterize the bending behaviour of the circular CFST columns under flexural loading. Based on the test results, two numerical models, namely a 3D Finite Element (FE) model and a Distributed Plasticity (DP) model had been proposed to simulate the bending behaviour of circular CFST members. The details of the two numerical models, including the member geometry, the steel-concrete interaction and the material properties, could be found in \cite{Jiang2018}. The accuracy of the two models had been validated against the test results and the corresponding lateral load versus drift ratio plots of the eight specimens are showing in Figure \ref{fig:test_vs_FE}. The 3D FE model can predict accurate bending behaviour of CFST member, since the local buckling, material interaction and the material strength under multi-axial stress, could be captured by the model. Regarding DP model, it was found that the model was always giving lower capacity prediction compared to the test results. The reason of the lower prediction could be considered as the multi-axial stress state.
 
 \begin{figure}
   \centering
@@ -8,6 +25,10 @@ Experimental tests, which were detailed in \cite{Silva2016}, had been conducted 
   \caption{Lateral load versus drift ratio plots comparison between test results, 3D FE model and DP model}
   \label{fig:test_vs_FE}
 \end{figure}
+
+
+
+
 
 
 
