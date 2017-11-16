@@ -6,13 +6,22 @@ When the CFST members were under loading, composite effects were introduced due 
 
 Regarding the concrete, the steel tube will provide confined stress to it and make the material under tri-axial stress state, which is called concrete confinement effect. The strength and the ductility of the concrete is improved by the confinement effect. There were many researchers had studied the concrete confinement effect for CFST members ().
 
-Not only concrete core, but also the steel tube is under multi-axial stress state. The steel tube will provide the confined stress to the concrete core and introduce the confinement effect. In turn, the concrete will expand under axial stress and cause the circumferential stress (or called hoop stress) around the steel tube. As the thickness of the steel tube is relatively small compared to the section diameter, the steel tube could be considered as a 2D shell and the material is under bi-axial stress state. Figure ?? shows the stress state of the steel tube of circular CFST member. Since the member is under bending force, part of the steel tube is under compression and part of it is under tension. The influences of bi-axial stress state on the steel material properties in the compressive and tensile areas are different.
+Not only concrete core, but also the steel tube is under multi-axial stress state. The steel tube will provide the confined stress to the concrete core and introduce the confinement effect. In turn, the concrete will expand under axial stress and cause the circumferential stress (or called hoop stress) around the steel tube. As the thickness of the steel tube is relatively small compared to the section diameter, the steel tube could be considered as a 2D shell and the material is under bi-axial stress state (\cite{RN31}). Figure \ref{fig:steel_biaxial_stress} shows the stress state of the steel tube of circular CFST member. Since the member is under bending force, part of the steel tube is under compression and part of it is under tension. The influences of bi-axial stress state on the steel material properties in the compression and tension areas are different.
 
 \begin{figure}
-\centering
-\includegraphics[\linewidth]{Figures/Hoop_Stress.pdf}
-\caption{Steel bi-axial stress state under bending force}
-\label{fig:steel_biaxial_stress}
+  \centering
+  \includegraphics[width=\linewidth]{Figures/Hoop_Stress.pdf}
+  \caption{Steel bi-axial stress state under bending force}
+  \label{fig:steel_biaxial_stress}
+\end{figure}
+
+As can be seen in Figure \ref{fig:steel_biaxial_stress}, for the compression area, the steel was combined with compressive stress on vertical direction and tensile stress on the horizontal direction. According to the steel yield surface shown in Figure \ref{fig:von_mises}, the yield stress at compression () is smaller than the uniaxial yield stress (fy).
+
+\begin{figure}
+  \centering
+  \includegraphics[width=\linewidth]{Figures/Von_Mises.pdf}
+  \caption{Steel yield surface}
+  \label{fig:von_mises}
 \end{figure}
 
 \subsection{Experiment Tests and Numerical models}
