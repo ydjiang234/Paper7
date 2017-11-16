@@ -15,11 +15,11 @@ Not only concrete core, but also the steel tube is under multi-axial stress stat
   \label{fig:steel_biaxial_stress}
 \end{figure}
 
-As can be seen in Figure \ref{fig:steel_biaxial_stress}, for the compression area, the steel was combined with compressive stress on vertical direction and tensile stress on the horizontal direction. According to the steel yield surface shown in Figure \ref{fig:von_mises}, the yield stress at compression (\(\sigma_{yc})\) is smaller than the uniaxial yield stress (\(f_{y})\).
+As can be seen in Figure \ref{fig:steel_biaxial_stress}, for the compression area, the steel was combined with compressive stress on vertical direction and tensile stress on the horizontal direction. According to the steel yield surface shown in Figure \ref{fig:von_mises}, the yield stress at compression (\(\sigma_{yc})\) is smaller than the uni-axial yield stress (\(f_{y})\).
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.5\linewidth]{Figures/Von_Mises.pdf}
+  \includegraphics[width=0.75\linewidth]{Figures/Von_Mises.pdf}
   \caption{Steel yield surface}
   \label{fig:von_mises}
 \end{figure}
