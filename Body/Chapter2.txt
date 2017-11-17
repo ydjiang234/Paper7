@@ -15,7 +15,9 @@ Not only concrete core, but also the steel tube is under multi-axial stress stat
   \label{fig:steel_biaxial_stress}
 \end{figure}
 
-To consider the yield stress of steel under bi-axial stress state, the yield surface is introduced (Figure \ref{fig:von_mises}). It should be noted that, positive value stands for tensile stress whilst negative value presents compressive stress. The hoop stress (\(\sigma_h)\) is plotted at the positive \(x)\ axis and the corresponding steel yield stresses under compression (\(f_{yc})\) and tension (\(f_{yt})\) are annotated on the yield surface. It could be found that, for steel at compression area, the compressive yield stress is smaller than the uni-axial yield stress (\(f_{y})\), which will have negative influence on the CFST member capacity. On the contrary, the steel yield stress at tension area will be larger than the uni-axial yield stress, which would benefit the member strength under bending. For circular CFST member under pure compression loading, the whole steel section is under compression and the yield stress of the steel is reduced from (\(f_{y})\) to (\(f_{yc})\), Therefore, the steel bi-axial stress has negative influence on the CFST column’s compressive resistance capacity. But for the bending capacity of CFST member, the influence of the steel bi-axial stress state depends on the relative area between the compression part and tension part, since the bi-axial stress state can increase yield stress under tension and reduce yield stress under compression. Thus, if the tensile area of the steel section is larger than the compressive, the steel bi-axial stress will benefit the bending resistance capacity of the CFST members and vice versa.
+
+To consider the yield stress of steel under bi-axial stress state, the yield surface is introduced (Figure \ref{fig:von_mises}). It should be noted that, positive value stands for tensile stress whilst negative value presents compressive stress. The hoop stress (\(\sigma_h\)) is plotted at the positive \(x\) axis and the corresponding steel yield stresses under compression (\(f_{yc}\)) and tension (\(f_{yt}\)) are annotated on the yield surface. It could be found that, for steel at compression area, the compressive yield stress is smaller than the uni-axial yield stress (\(f_{y}\)), which will have negative influence on the CFST member capacity. On the contrary, the steel yield stress at tension area will be larger than the uni-axial yield stress, which would benefit the member strength under bending. For circular CFST member under pure compression loading, the whole steel section is under compression and the yield stress of the steel is reduced from (\(f_{y}\)) to (\(f_{yc}\)), Therefore, the steel bi-axial stress has negative influence on the CFST column’s compressive resistance capacity. But for the bending capacity of CFST member, the influence of the steel bi-axial stress state depends on the relative area between the compression part and tension part, since the bi-axial stress state can increase yield stress under tension and reduce yield stress under compression. Thus, if the tensile area of the steel section is larger than the compressive, the steel bi-axial stress will benefit the bending resistance capacity of the CFST members and vice versa.
+
 
 \begin{figure}
   \centering
@@ -23,6 +25,7 @@ To consider the yield stress of steel under bi-axial stress state, the yield sur
   \caption{Steel yield surface}
   \label{fig:von_mises}
 \end{figure}
+
 
 \subsection{Experiment Tests and Numerical models}
 
