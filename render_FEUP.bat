@@ -2,7 +2,7 @@
 set FileName="Paper7"
 set bib_path=$GIT$\BibTex
 pdflatex %FileName%.tex
-bibtex %FileName% -include-directory=%bib_path%
+bibtex %FileName%
 pdflatex %FileName%.tex
 pdflatex %FileName%.tex
 rm *.aux *.out *.log *.bbl *.blg
