@@ -6,7 +6,7 @@
 \geometry{margin=1in}
 
 \title{Assessment of Multi-Axial Stress State effects of Circular Concrete-Filled Steel Tubular Columns under Flexural Loading}
-\author{Yadong Jiang \and António Silva \and Bledar Kalemia \and José Miguel Castro \and Ricardo Monteiro}
+\author{Yadong Jiang \and António Silva \and Bledar Kalemia \and José Miguel Castro \and Ricardo Monteiro \and Nuno Silvestre}
 
 
 \date{}
@@ -27,7 +27,7 @@
 	\par
 	As one may have inferred, there is a clear gap in the consideration of multi-axial stress states, including both concrete confinement effect and steel bi-axial stress state, when model or design the CFST members under flexural loads. The research presented in this paper aims to address this limitation of both the literature and the current design methodologies. This paper starts with a brief description of the multi-axial stress states and the verification of the previously proposed material strength correction method for CFSTs. Based on the 3D Finite Element (FE) model proposed in Jiang et al. 2018 [?], New material strength correction methods, which aims to overcome the aforementioned limitations of the DP model, are developed and validated. By conducting a parametric study on the flexural behaviour of circular CFST members, closed-form expressions which focus on the calculation of the confined concrete stress and the steel bi-axial steel bi-axial yield stress are derived and their feasibility is verified against experimental data.
 	
-	\section{Multi-axial Stress States of Circular CFST Members}
+	\section{Influence of Multi-axial Stress States}
 	\subsection{Multi-axial Stress States}
 	When the CFST members are under loading, the composite effects are introduced due to the interaction between concrete core and steel tube. Thus, both the concrete and steel are under the multi-axial stress states. The confined stress provided by the steel tube makes the concrete core under tri-axial stress state, and thus, caused the concrete confinement effect, which can improve its the strength and ductility. Thus, the concrete confinement effect will benefit the flexural capacity of CFST members. There were many researchers studied the concrete confinement effect for CFST members in recent years (Han et al. 2001 \cite{RN23}, Hu et al. 2003 \cite{RN1}, Hu et al. 2005 \cite{RN29}, Tort and Hajjar 2010 \cite{RN46} and Lai and Varma 2016 \cite{RN32}).
 	\par
@@ -60,7 +60,7 @@
 		\label{fig-3}
 	\end{figure}
 	\par
-	\subsection{Previous Studies on Multi-axial Stress State Influence}
+	\subsection{Previous Studies on Multi-axial Stress State}
 	In the past, there were many researchers had carried out the studies on the prediction of confined concrete strength for CFST members (Han et al. 2001 \cite{RN23}, Hu et al. 2003 \cite{RN1}, Hu et al. 2005 \cite{RN29} and Tort and Hajjar 2010 \cite{RN46} e.t.c). But in these research works, the influence of steel bi-axial stress state was ignored. Therefore, these derived confined concrete strength equations may result in the inaccuracy of the numerical prediction. Lai and Varma 2016 \cite{RN32} had performed a parametric study on CFST members under compressive loading with the consideration of multi-axial stress states. The equation to calculate the confined concrete strength had been derived. Moreover, the steel compressive yield strength in the research was reduced to $0.9f_y$. But regarding the steel tensile yield stress, there was no correction. Thus, the proposed material strength correction equations of Lai and Varma 2016 \cite{RN32} were suitable for CFST members subjected to axial compression but not sufficient for members under bending.
 	\par
 	Inai et al. 2004 \cite{RN30} and Fujimoto et al. 2004 \cite{RN15} had used the DP model to simulate the bending behaviour of CFST members. To consider the influences of multi-axial stress states, they combined the previous researches on the confined concrete strength and the steel bi-axial yield stress (Kato and Nishiyama 1980 \cite{RN139}, Sakino 1994 \cite{RN138}, Nakahara et al. 1999 \cite{RN137} and Sakino et al. 1998 \cite{RN135}) and summarized the material strength correction equations for both concrete and steel. For circular CFST members, the confined concrete strength is given in Equation (\ref{eq-1}).
@@ -79,7 +79,7 @@
 		\label{tb-1}
 	\end{table}
 	\par
-	Figure \ref{fig-4} displays the lateral load versus drift ratio plots comparison of three results, namely the tests results, the DP model results with uniaxial material strength and the DP model results with corrected material strength. The four plots on the left column of the figure belong show the response of the CFST specimens with no axial load. It could be found that, with the correction methods given by Inai et al. 2004 \cite{RN30} and Fujimoto et al. 2004 \cite{RN15}, the accuracy of the DP model had been improved, as good agreements are observed between the DP model with corrected material strength and the test results. But regarding the specimens with constant axial loads (plots on the right column), nearly no improvement of the DP model results is found by applying the correction methods, by comparing its results with the original DP model predictions. As constant factors were used to correct the steel stress in the correction methods given by the two research works, it could be summarized that the steel bi-axial stress state has a relationship with the axial load level.
+	Figure \ref{fig-4} displays the lateral load versus drift ratio plots comparison of three results, namely the tests results, the DP model results with uniaxial material strength and the DP model results with corrected material strength. The four plots on the left column of the figure belong show the response of the CFST specimens with no axial load. It could be found that, with the correction methods given by Inai et al. 2004 \cite{RN30} and Fujimoto et al. 2004 \cite{RN15}, the accuracy of the DP model had been improved, as good agreements are observed between the DP model with corrected material strength and the test results. But regarding the specimens with constant axial loads (plots on the right column), nearly no improvement of the DP model results is found by applying the correction methods, by comparing its results with the original DP model predictions. As constant factors were used to correct the steel stress in the correction methods given by the two research works, it could be summarized that the steel bi-axial stress state has a relationship with the axial load level, which is not considered in the aforementioned correction methods.
 	\par
 	\begin{figure}[h]
 		\centering
@@ -103,7 +103,7 @@
 	\end{figure}
 	\par
 	
-	\subsection{Yield Points of the Concrete and Steel Sections}
+	\subsection{Yield Points of Concrete and Steel Sections}
 	The yield moments of the concrete core and the steel tube are directly related to their material strengths, namely the confined concrete strength and the steel bi-axial yield stress. Thus, to acquire the corrected material strengths, the yield points of the two sections should be addressed first. Figure \ref{fig-6} shows the moment-drift ratio curves of the concrete section. The shape of the moment-drift ratio curve can be classified into two types. For the concrete core with a relatively high confining stress, not only its strength but also its ductility is remarkably increased. Thus, the corresponding moment-drift ratio curve shows no strength degradation at the plastic range, as can be seen in Figure \ref{fig-6} (a). While for the concrete core under low/moderate confinement effect, although its strength and ductility are improved by the confined stress, the confined stress level is not enough to eliminate the influence of the concrete cracks. Thus, there is still strength degradation exhibited in the corresponding moment-drift ratio curve (Figure \ref{fig-6} (b)). For the two conditions, the correction methods are slightly different.
 	\par
 	\begin{figure}[h]
@@ -226,7 +226,7 @@
 	By combining the 88 CFST columns with the 5 axial load levels, 440 monotonic flexural analysis was conducted. Each of the columns was laterally loaded up to a drift ratio level of 7\%. For all the columns, the material strength correction methods described in Section 3 were applied. Thus, a material strength database consisting of 440 CFST members was created.
 	\par
 	In order to represent the wide set of members with a single representative parameter, a section factor, $ξ$, is adopted, as shown in Equation (18). In a simplified manner, the section factor consists the cross-section slenderness, $D/t$, unconfined concrete strength, $f_c$, and uniaxial steel yield stress $f_y$. For CFST members with given concrete and steel types, the larger values of $ξ$ indicate a stronger concrete core and a weaker steel tube, and vice versa.
-	\subsection{Strength Correction Equations for Concrete}
+	\subsection{Strength Correction Equation for Concrete}
 	Regarding the strength corrections of the concrete core, the ratio between the confined and plain strength values, $f_{cc}/f_c$, are plotted against section factor $ξ$ in Figure \ref{fig-10}. The scatters of the CFST members are grouped according to the axial load levels, $μ_n$, and are classified in different colours. Analysis of the results allows concluding that regardless of the axial load level, the values of $f_{cc}/f_c$ were consistently larger than 1.0. This confirms the development of confinement in the concrete core, which increases the strength of the concrete material. Also clear is that as $ξ$ increases, $f_{cc}/f_c$ decreases. This is in line with the common notion that the higher the cross-section slenderness (which is proportional $ξ$), the least significant will the confinement effect of the concrete core be.
 	\par
 	\begin{figure}[h]
@@ -237,7 +237,7 @@
 	\end{figure}
 	\par
 	It could also be found that the scatter distributions of different axial load levels tended to be similar. This indicates that the confinement effect of the concrete core does not depend on the axial load level, for flexural loading scenarios. From the Figure \ref{fig-10}, it may also be assumed that the relationship between $f_{cc}/f_c$ and $ξ$ is linear. Thus, for the condition that the column is under flexural force, the confined concrete strength function of circular CFST member is proposed as Equation (19). It should be noted that, in Figure \ref{fig-10}, there are 84\% of the scatted points staying above the proposed equation line, which indicates that the confined concrete strength function can reduce the possibility of overestimating the confined concrete strength. It should be highlighted that, as concluded by Hu et al. 2003 \cite{RN1} and Hu et al. 2005 \cite{RN29}, for CFST members under centrally compression and flexural force, the confined strength of the concrete core should be different. Thus, the proposed confined concrete strength equation only applies to the case that the circular CFST column is under bending combined with a constant axial load.
-	\subsection{Strength Correction Equations for Steel}
+	\subsection{Strength Correction Equation for Steel}
 	Similar to the corrections of the concrete, the ratio between the steel bi-axial yield stress and uniaxial yield stress, $f_{yb}/f_y$, are plotted against $ξ$ in Figure \ref{fig-11} for each $μ_n$. Analysis of the results shown in $f_{yb}/f_y$ allows concluding that similarly to the values for concrete, regardless of the axial load level, the values of fyb/fy were always larger than 1.0. This indicates the development of bi-axial stress state for circular CFST members under moderate/low axial load level, which benefits the member flexural capacity. Also clear is that the axial load has a negative influence on the stress state effect, as the steel bi-axial yield stress decreases with the increase of $μ_n$. This enhances the conclusion from Section 2.2 that the axial load level will affect the steel bi-axial stress state.
 	\par
 	\begin{figure}[h]
